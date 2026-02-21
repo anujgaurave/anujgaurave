@@ -5,13 +5,13 @@
 
 - 🔭 I’m recently worked on  CARE-CONNECT(Hospital Management System) [Visit My Project](https://github.com/anujgaurave/Hospital-Management-System)
 
-- 🌱 I’m currently learning **Nodejs , MongoDB**
+- 🌱 I’m currently learning **Python , Flask**
 
 - 🤝 I’m looking for help with **Hospital Management System**
 
 - 👨‍💻 All of my projects are available [here](https://github.com/anujgaurave?tab=repositories)
 
-- 💬 Ask me about **Java, Html, Css,JavaScript,React.js, Sql, DBMS**
+- 💬 Ask me about **Java, Html, Css, JavaScript, React.js, Node.js, Python, Flask, MongoDB, Sql, DBMS**
 
 - 📫 How to reach me **anujgaurave@gmail.com**
 
