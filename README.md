@@ -5,9 +5,54 @@
     <img src="https://komarev.com/ghpvc/?username=anujgaurave&label=Profile%20views&color=00FFFF&style=flat-square" alt="anujgaurave's profile views" />
   </a>
 </p>
-# 💫 About Me:-
-🚀 Full Stack Developer | Building scalable web applications  <br><br>🔭 Currently working on advanced full-stack systems & real-world production apps  <br>💡 Experienced in designing and developing responsive, user-centric applications  <br><br>🛠️ Tech Stack:<br>JavaScript | React.js | Node.js | Python | Flask  <br>MongoDB | MySQL | DBMS | HTML | CSS  <br><br>🤝 Open to collaboration on impactful full-stack projects  <br>📚 Continuously exploring new technologies & system design  <br><br>💬 Ask me about Full Stack Development, APIs, Databases, and System Design  <br><br>📫 Reach me at: anujgaurave@gmail.com
+## 💫 About Me
 
+<table>
+<tr>
+
+<td width="55%" valign="top">
+
+🚀 **Full Stack Developer** | Building scalable web applications  
+<br><br>
+
+🔭 Currently working on advanced full-stack systems & real-world production apps  
+<br><br>
+
+💡 Experienced in designing and developing responsive, user-centric applications  
+<br><br>
+
+🛠️ **Tech Stack:**  
+JavaScript • React.js • Node.js • Python • Flask  
+MongoDB • MySQL • HTML • CSS  
+<br><br>
+
+🤝 Open to collaboration on impactful full-stack projects  
+<br><br>
+
+📚 Continuously exploring new technologies & system design  
+<br><br>
+
+💬 Ask me about Full Stack Development, APIs, Databases & System Design  
+<br><br>
+
+📫 **Reach me at:** [anujgaurave@gmail.com](mailto:anujgaurave@gmail.com)
+
+</td>
+
+<td width="45%" align="center" valign="middle">
+
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1200&color=A371F7&center=true&vCenter=true&width=500&height=180&lines=Full+Stack+Developer;React.js+%7C+Node.js+%7C+Python;Building+Scalable+Web+Applications;Creating+Real-World+Solutions;Always+Learning+%26+Building+%F0%9F%9A%80;Turning+Ideas+Into+Code+%F0%9F%92%BB" />
+
+<br>
+
+<img src="https://raw.githubusercontent.com/anujgaurave/anujgaurave/main/3d-city.gif"
+     width="100%"
+     alt="Developer Animation" />
+
+</td>
+
+</tr>
+</table>
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/anujgauravemishra) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/anujgaurave/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/anujgaurave) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/anujgaurave) 
