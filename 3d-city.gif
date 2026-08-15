@@ -1,1 +1,85 @@
 
+from PIL import Image, ImageDraw, ImageFont
+import math, os
+
+W, H = 700, 420
+frames = []
+
+# Fonts
+font_paths = [
+    "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+]
+mono = ImageFont.truetype(font_paths[0], 24)
+small = ImageFont.truetype(font_paths[0], 15)
+title = ImageFont.truetype(font_paths[1], 27)
+
+lines = [
+    "FULL STACK DEVELOPER",
+    "React.js  |  Node.js  |  Python",
+    "Building Scalable Web Applications",
+    "Turning Ideas Into Code  🚀"
+]
+
+for f in range(36):
+    im = Image.new("RGB", (W, H), (8, 8, 18))
+    d = ImageDraw.Draw(im)
+
+    # neon-ish city background
+    horizon = 300
+    for x in range(0, W, 55):
+        bh = 55 + ((x * 7) % 130)
+        y = horizon - bh
+        d.rectangle((x, y, x+42, horizon), fill=(20, 16, 38))
+        for wy in range(y+18, horizon-8, 25):
+            for wx in range(x+9, x+38, 15):
+                if ((wx + wy + f*3)//7) % 4 == 0:
+                    d.rectangle((wx, wy, wx+4, wy+7), fill=(105, 65, 160))
+
+    # road
+    d.rectangle((0, horizon, W, H), fill=(13, 13, 24))
+    for x in range(-40, W+80, 90):
+        xx = x + (f*8) % 90
+        d.polygon([(xx, 325), (xx+22, 325), (xx+52, 420), (xx+20, 420)], fill=(34, 25, 57))
+
+    # moon
+    d.ellipse((575, 38, 635, 98), fill=(150, 105, 210))
+
+    # moving pixel developer
+    px = 85 + (f * 10) % 480
+    py = 270
+    step = (f % 4) // 2
+    # shadow
+    d.ellipse((px-15, py+52, px+25, py+60), fill=(4,4,10))
+    # head/body
+    d.rectangle((px, py, px+20, py+20), fill=(220, 180, 145))
+    d.rectangle((px-2, py-4, px+22, py+4), fill=(120, 75, 190))
+    d.rectangle((px-5, py+20, px+25, py+48), fill=(90, 60, 150))
+    # legs walking
+    if step == 0:
+        d.line((px+4, py+48, px-5, py+62), fill=(210,210,230), width=5)
+        d.line((px+17, py+48, px+25, py+62), fill=(210,210,230), width=5)
+    else:
+        d.line((px+4, py+48, px+13, py+62), fill=(210,210,230), width=5)
+        d.line((px+17, py+48, px+8, py+62), fill=(210,210,230), width=5)
+
+    # overlay panel
+    d.rounded_rectangle((40, 25, 660, 185), radius=18, fill=(12, 10, 25), outline=(118, 75, 180), width=2)
+    d.text((W//2, 48), lines[0], font=title, anchor="ma", fill=(220, 185, 255))
+
+    # typing/vanishing line
+    current = lines[1 + ((f // 9) % 3)]
+    phase = f % 9
+    if phase < 6:
+        shown = current[:max(1, min(len(current), phase*max(1, len(current)//5)))]
+    else:
+        shown = current[:max(0, len(current) - (phase-5)*max(1, len(current)//5))]
+    d.text((W//2, 105), shown + ("▌" if f % 2 == 0 else ""), font=mono, anchor="ma", fill=(170, 125, 245))
+
+    d.text((W//2, 145), "coding • building • learning", font=small, anchor="ma", fill=(170, 170, 190))
+
+    frames.append(im)
+
+out = "/mnt/data/3d-city.gif"
+frames[0].save(out, save_all=True, append_images=frames[1:], duration=90, loop=0, optimize=False)
+out
