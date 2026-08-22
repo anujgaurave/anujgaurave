@@ -5,7 +5,7 @@
     <img src="https://komarev.com/ghpvc/?username=anujgaurave&label=Profile%20views&color=00FFFF&style=flat-square" alt="anujgaurave's profile views" />
   </a>
 </p>
-# 💫 About Me:--
+# 💫 About Me:-
 🚀 Full Stack Developer | Building scalable web applications  <br><br>🔭 Currently working on advanced full-stack systems & real-world production apps  <br>💡 Experienced in designing and developing responsive, user-centric applications  <br><br>🛠️ Tech Stack:<br>JavaScript | React.js | Node.js | Python | Flask  <br>MongoDB | MySQL | DBMS | HTML | CSS  <br><br>🤝 Open to collaboration on impactful full-stack projects  <br>📚 Continuously exploring new technologies & system design  <br><br>💬 Ask me about Full Stack Development, APIs, Databases, and System Design  <br><br>📫 Reach me at: anujgaurave@gmail.com
 
 ## 🌐 Socials:
